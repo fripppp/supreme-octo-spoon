@@ -1,0 +1,67 @@
+.style1 {
+	font-size: xx-large;
+	font-weight: bold;
+}
+.main {
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: -75px;
+    width: 50%;
+	width: 30%;
+	height: 50%;
+	min-width: 400px;
+	max-width: 1100px;
+	background-color: white;
+	border: solid grey 1px;
+	z-index: 1;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+.active {
+  text-decoration: underline;
+}
+.jeff {
+	font-size: 75%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 95%;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #333;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.seperate {
+	height: 50%;
+}
+.logo {
+	margin-left: auto;
+    margin-right: auto;
+	left: 35%;
+	top: -100px;
+	border-radius: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 150px;
+	z-index: 2;
+}
+p {
+	font-family: "nimbus-sans", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #454545;
+}
